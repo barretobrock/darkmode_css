@@ -1,0 +1,17 @@
+@-moz-document url-prefix("https://app.raindrop.io") {
+/* Background 1 */
+#main * {
+    background: #111;
+}
+
+
+/* Background 2 */
+#sidebar {
+    background: #333 !important;
+}
+
+/* Text 1 */
+#sidebar, #mainBody article .title, text {
+    color: #909090;
+}
+}

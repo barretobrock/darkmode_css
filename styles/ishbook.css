@@ -1,0 +1,101 @@
+@-moz-document regexp("https.*ishbook\\.(corp|sandbox)\\.indeed\\.net.*") {
+
+/* Main Background Color */
+body, .dropdown-menu, .btn-default, .panel, .navbar-default, .dashboard-app .control-frame .submit-frame, .dashboard-app .output-frame.no-results, .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #303030 !important;
+}
+
+/* Documentation Section */
+.markdown-body {
+    color: #b2b2b2;
+}
+
+/* L1 Background */
+tr.nblist-row-expanded+tr td, .popover  {
+    background-color: #505050;
+}
+.popover.top > .arrow:after {
+    border-top-color: #505050;
+}
+
+.three-bounce>div {
+    background-color: #226ece;
+}
+
+/* Main Hover Color */
+.table-hover > tbody > tr:hover, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .nblist-table th.sortable:hover, .nav > li > a:hover, .nav > li > a:focus, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #5599ff6e;
+    color: #c1c1c1;
+}
+
+/* Main Text Color */
+text, h2, .table-hover > tbody > tr,.dropdown-menu > li > a, .table-hover > thead > tr, label, em, .nblist-table td, .btn-default, .panel, .plum-theme, p.plum-theme, .popover, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, .text-muted, .table {
+    color: #c1c1c1;
+}
+
+a {
+    color: #79c1ff;
+}
+
+a:hover, a:focus {
+    color: #f28b8b;
+}
+
+.col-submit-frame {
+    box-shadow: 0px 0px 0px #222;
+}
+
+/* Viz bars */
+.nblist-table .progress-fill {
+    border: 1px dotted #0f0;
+    background-color: #303030;
+    color: #0f0;
+}
+
+/* Tabs */
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .pagination>.active>a {
+    background-color: #a6c5ff;
+    color: black;
+}
+
+/* Top bar nav stuff */
+nav.navbar-inverse.navbar-static-top, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #3f6fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #c1c1c1;
+}
+
+.badge {
+    background-color: #f5cf14;
+    color: #202020;
+}
+
+.nav-tabs > li > a, .panel-default {
+    border: 1px dotted #c1c1c1;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    border-top: 1px dotted #c1c1c1;
+}
+
+.navbar-default, .col-input-frame, .col-submit-frame {
+    border: 0px;
+}
+
+/* Forms */
+.form-control, .pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus, .pagination > li > a, .pagination > li > span {
+    background-color: #606060;
+    color: #c1c1c1;
+}
+
+.dashboard-app .output-frame {
+    border-left-style: dotted;
+}
+
+.WrappedNotebookInput {
+    border-bottom: 1px dotted #b2b2b2;
+}
+
+}
