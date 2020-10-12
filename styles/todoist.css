@@ -1,9 +1,0 @@
-@-moz-document url-prefix("https://todoist.com/") {
-code.code_inline {
-    color: #55ff58b8 !important;
-}
-
-a.ex_link {
-    color: #55c9ffb8 !important;
-}
-}
