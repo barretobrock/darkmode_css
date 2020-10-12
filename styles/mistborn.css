@@ -1,0 +1,54 @@
+body,
+.content-wrapper {
+    background-color: var(--bg-90);
+}
+
+[class*=sidebar-dark-],
+.navbar-white, .card,
+.list-group-item,
+.main-footer {
+    background-color: var(--bg-80);
+}
+
+.form-control {
+    background-color: var(--bg-70);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: var(--bg-60);
+}
+
+body,
+.navbar-light .navbar-nav .nav-link,
+.form-control,
+.text-muted,
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--txt-90) !important;
+}
+
+a {
+    color: var(--link-txt);
+}
+
+.nav-tabs.flex-column .nav-item.show .nav-link, .nav-tabs.flex-column .nav-link.active {
+    border-color: var(--txt-90) transparent var(--txt-90) var(--txt-90) !important;
+}
+.main-footer {
+    border-top: var(--borders-10);
+}
+.nav-tabs.flex-column {
+    border-right: var(--borders-10);
+}
+
+/* Admin avatar */
+.user-panel .image {
+    background-image: url("https://image.flaticon.com/icons/png/128/2636/2636434.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.user-panel .image img {
+    display: none;
+}

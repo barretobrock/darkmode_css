@@ -8,7 +8,7 @@ import time
 from kavalkilu import Log
 
 
-logg = Log('css-style-import')
+logg = Log('css-style-import', arg_parse=False)
 # Where we store the broken-down styles for manual inspection
 styles_dir = os.path.abspath('styles')
 # Where we store the JSON file that we'll import into the Stylus fork

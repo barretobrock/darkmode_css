@@ -1,0 +1,48 @@
+/* Text inside boxes */
+.ct-subsections, .ct-actions__attacks-per-action, .ddbc-item-name--rarity-common, .ct-proficiency-bonus-box__heading, #content, .ct-proficiency-bonus-box__value, .ct-sidebar__inner {
+    color: var(--txt-90) !important;
+}
+
+/* Active tab */
+.ddbc-tab-list__nav-item--is-active {
+    color: var(--txt-red);
+}
+/* Modifiers */
+.ddbc-ability-summary__primary {
+    color: var(--txt-grn);
+}
+
+
+/* Icons */ 
+.ddbc-combat-attack__icon-img--action-attack-weapon-melee, .ddbc-combat-attack__icon-img--weapon-ranged, .ddbc-combat-attack__icon-img--weapon-melee {
+    filter: invert(100);
+}
+
+/* Background */
+.ddbc-box-background  > svg.ddbc-ability-score-box-svg > path:nth-child(-n+2), .ddbc-box-background  > svg > path:first-child, .ddbc-box-background  > svg > polygon, .ct-sidebar__pane-top > svg > path:first-child, .ddbc-sidebar-cap-svg > path:first-child, .ddbc-beveled-edge-repeat-svg > path:last-child, .ddbc-beveled-edge-corner-svg > path:last-child  {
+    fill: var(--bg-90);
+}
+html body.body-rpgcharacter-sheet, .ct-character-sheet:before {
+    background-image: none !important;
+    background-color: var(--bg-100);
+}
+
+.ct-combat-tablet__cta-button, .ct-main-tablet .ddbc-campaign-summary {
+    background-color: var(--bg-80);
+}
+
+input[type="text"], input[type="number"], input[type="search"], input[type="password"], input[type="email"], textarea, select, .site .ct-button.ct-theme-button--outline, .ct-item-detail__tag {
+    background-color: var(--bg-70);
+}
+input[type="text"]:hover, input[type="number"]:hover, input[type="search"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover, .site .ct-button.ct-theme-button--outline:active, .site .ct-button.ct-theme-button--outline:focus, .site .ct-button.ct-theme-button--outline:hover {
+    background-color: var(--bg-50);
+}
+
+.ct-sidebar__pane-content, .ct-sidebar__pane-gap, .ct-tablet-box__inner, .ct-tablet-box__header {
+    background-color: var(--bg-90);
+}
+
+/* Nasty text shadow get outta here */
+.ct-inspiration__label, .ct-combat__summary-label--outline, .ct-combat-tablet__initiative-label {
+    text-shadow: none;
+}

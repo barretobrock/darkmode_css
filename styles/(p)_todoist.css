@@ -1,0 +1,12 @@
+/*code text*/ 
+code.code_inline
+, code.code_block {
+    color: var(--code-txt) !important;
+}
+
+/* links */
+a.ex_link, div.task_item_content_text > a,
+.task_content a
+{
+    color: var(--link-txt) !important;
+}

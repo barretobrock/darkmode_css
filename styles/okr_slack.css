@@ -1,0 +1,11 @@
+.p-message_input_field,
+.p-message_pane_input,
+.p-threads_footer__input_container,
+.c-message__sender,
+.c-avatar {
+    display: none !important;
+}
+
+div.ql-editor > p {
+    pointer-events: none;
+}

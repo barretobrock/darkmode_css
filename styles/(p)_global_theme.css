@@ -1,0 +1,111 @@
+/* This serves as a template to apply consistent values across all pages controlled */
+
+/* This disables the hacky warning message in the extension popup */
+#stylus-startup-msg {
+  display: none;
+}
+
+
+/* COLOR VARS */
+:root {
+    /* Background Shades */
+        --bg-full: #000;
+        --bg-100: #111;
+        --bg-90: #202020;
+        --bg-80: #303030;
+        --bg-70: #404040;
+        --bg-60: #505050;
+        --bg-50: #606060;
+        --bg-40: #707070;
+        --bg-30: #808080;
+        --bg-20: #909090;
+        --bg-10: #c6c6c6;
+        --bg-blu-90: #0e0e40;
+        --bg-blu-50: #192553;
+        --bg-grn-90: #0d2c00;
+        --bg-grn-50: #216f00;
+        --bg-red-90: #2c0700;
+        --bg-red-50: #881500;
+        --bg-ylw-90: #423902;
+    
+    
+    /* Plain Text Shades */
+        --txt-100: #e6e6e6;
+        --txt-90: #c0c0c0;
+        --txt-80: #999;
+        --txt-70: #888;
+        --txt-60: #777;
+        --txt-50: #666;
+        --txt-40: #555;
+        --txt-30: #444;
+        --txt-10: #333;
+    
+    /* Text Color Palette */
+        --txt-wht: white;
+        --txt-red: #ff5f5f;
+        --txt-org: #ff9c66;
+        --txt-ylw: #f7e655;
+        --txt-grn: #0d0;
+        --txt-ltgrn: #6cfd6c;
+        --txt-blu: #4988fd;
+        --txt-ltblu: #49d5fd;
+        --txt-prp: #9c53ff;
+        --txt-ltprp: #a9a9ff;
+    
+    
+        --link-txt: var(--txt-blu);
+    
+    /* Non-syntax highlighting code */
+        --code-txt: var(--txt-grn);
+    /* Syntax highlighting code */
+        --code-str: var(--txt-ltgrn);       /* Strings */
+        --code-keywd: var(--txt-org);       /* Keywords (e.g., SELECT, FROM, etc.) */
+        --code-field: var(--txt-ltprp);     /* fields, columns, probably also functions */
+        --code-num: var(--txt-ltblu);       /* Numbers */
+        --code-date: var(--code-str);       /* IQL Date */
+        --code-agg: var(--txt-ylw);         /* Aggregators / functions */
+        --code-comment: var(--txt-80);      /* Comments */
+        --code-var: var(--txt-100);         /* Variables */
+        --code-builtin: var(--code-field);  /* BuiltIns */
+    
+    /* Borders, etc. */
+        /* solid */
+        --borders-10: 1px solid #646464;
+        --borders-100: 1px solid black;
+        /* dotted */
+        --borderd-10: 1px dotted #646464;
+        --borderd-100: 1px dotted black;
+        /* none */
+        --bordernone: 0px;
+    
+    /* Flags (notifications, things to draw the eye) */
+        --flag-ylw: #ffc300;
+        --flag-red: #ff5f5f;
+    
+    /* Hover keys */
+        --hover-blu: #3572b0;
+    
+    /* Commonly-used commands */
+        --invert-col: invert(90%);
+}
+
+/* Text Selection */
+::selection, .CodeMirror-selected, .CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection {
+    background: var(--hover-blu) !important;
+    color: var(--txt-100) !important;
+}
+
+/* Scroll Bars */
+/* Track */
+::-webkit-scrollbar {
+    width: 5px;
+  background: #404040; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Scroll buttons */
+::-webkit-scrollbar-button {
+    background: #404040;
+}
